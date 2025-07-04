@@ -7,4 +7,11 @@ pipeline {
             }
         }
     }
+    stages {
+        stage('Unit test') {
+            steps {
+                 echo 'Unit test stage'
+            }
+        }
+    }
 }
