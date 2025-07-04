@@ -37,3 +37,4 @@ pipeline {
 				sh 'npm install'		
 			}
 		}
+    }
